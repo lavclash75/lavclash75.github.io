@@ -1,10 +1,18 @@
 ---
+layout: single
 title: Discord Open Redirect (Unpatched)
-date: 2022-11-02 18:00:00 -500
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [error] #minúsculas
----
+excerpt: 
+date: 2022-11-02 
+classes: wide
+header:
+  teaser: /assets/images/tratamiento-de-la-tty/foto-portada.jpg
+  teaser_home_page: true
 
+tags:
+  - bug bounty
+  - config
+  - shell
+---
 # Discord Open Redirect (Unpatched)
 
 Primer de todo yo no he descubierto esta vulnerabilidad yo solo observe que se estaba explotando como dicen los ingleses in the wild.
