@@ -1,17 +1,8 @@
 ---
-layout: single
 title: Discord Open Redirect (Unpatched)
-excerpt: 
-date: 2022-11-02 
-classes: wide
-header:
-  teaser: /assets/images/tratamiento-de-la-tty/foto-portada.jpg
-  teaser_home_page: true
-
-tags:
-  - bug bounty
-  - config
-  - shell
+date: 2022-11-02
+categories: [bug bounty, discord]
+tags: [bug bounty, 0 day] #minúsculas
 ---
 # Discord Open Redirect (Unpatched)
 
@@ -43,7 +34,7 @@ https://fnomm.com
 ```
 Lo restante del link es para agregar al bot y enviar un mensaje automático a todas las personas del servidor con el mismo enlace de free nitro.
 
-## Reporte en el programa de bug bounty :
+## Reporte en el programa de bug bounty:
 Una vez analizado el URL procedí a enviar el reporte al programa de bug bounty de Discord
 
 En el reporte explico básicamente lo descrito anteriormente y también adjunto un video del proof of concept.
@@ -52,4 +43,4 @@ Punto positivo del programa de bug bounty de Discord es que me respondieron el m
 
 Punto negativo el programa considero que es social engineering y cerraron el reporte como informativo ya que consideraron que no es una vulnerabilidad y que estaba fuera de scope del programa. Por ultimo quiero añadir que esta bien que tengan programas de bug bounty pero que por ejemplo este en out of scope CSRF, y que social engineering este totalmente en out of scope yo no digo que no tenga que estar por que al final phishing se pude hacer de todo pero aquí estas aprovechando de un error para hacer el phishing y sea mas realista y sigamos sinceros los users no se van a fijar en que el url cambia a otro no malintencionado por que primero ya vieron que es una url de discord.com, al final creo que no es cuestión de si es o no una vulnerabilidad solo hacer el usuario final mas seguro aplicando una mesura. Dicho esto happy hunting 😎
 ## Programa de bug bounty de Discord 
-https://discord.com/security
+[https://discord.com/security](https://discord.com/security)
