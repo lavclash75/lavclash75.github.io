@@ -6,9 +6,9 @@ tags: [bug bounty, 0 day] #minúsculas
 ---
 # Discord Open Redirect (Unpatched)
 
-Primer de todo yo no he descubierto esta vulnerabilidad yo solo observe que se estaba explotando como dicen los ingleses in the wild.
+Primer de todo yo no he descubierto esta vulnerabilidad yo solo observé, que se estaba explotando como dicen los ingleses in the wild.
 
-Como me doy cuenta de esta vulnerabilidad, un amigo mio recibe el típico mensaje de free nitro que todos hemos recibido alguna vez y me habla al md para decirme si es real yo ya de entrada le digo que es spam, pero me da curiosidad y decido investigar-lo, para recibir el nitro tienes que agregar un bot a un server tuyo yo decido añadirlo en otra cuenta que tengo para probar y en otro server donde esta solo la cuenta esta, cuando añado el bot me doy cuenta que el url es automáticamente redirigido a otra web maliciosa que se parece a la de discord la típica web de phishing. Aquí es donde me doy cuenta y digo uy que raro se ha dirigido automáticamente a la web de phishing y me doy cuenta del open redirect. A continuación vamos a analizar la url para ver el open redirect 
+Como me doy cuenta de esta vulnerabilidad, un amigo mio recibe el típico mensaje de free nitro que todos hemos recibido alguna vez y me habla al md para decirme si es real, yo ya de entrada le digo que es spam, pero me da curiosidad y decido investigar-lo, para recibir el nitro tienes que agregar un bot a un server tuyo, yo decido añadirlo en otra cuenta que tengo para probar y en otro server donde esta solo la cuenta esta, cuando añado el bot me doy cuenta que el url es automáticamente redirigido a otra web maliciosa, que se parece a la de discord la típica web de phishing. Aquí es donde me doy cuenta y digo uy que raro se ha dirigido automáticamente a la web de phishing y me doy cuenta del open redirect. A continuación vamos a analizar la url para ver el open redirect.
 
 ## Análisis :
 
