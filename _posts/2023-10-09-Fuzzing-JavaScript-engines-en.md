@@ -2,7 +2,7 @@
 title: Fuzzing JavaScript and WebAssembly engine(aun no terminado)
 date: 2023-10-09
 categories: [v8, fuzzing]
-tags: [Fuzzing, v8, Linux] #minúsculas
+tags: [fuzzing, v8, linux] #minúsculas
 ---
 
 Bé, de moment començarem amb català a aquest post. Primer de tot, dir que havia deixat el blog abandonat, la veritat és que he estat fent l'OSCP i l'OSWP.
