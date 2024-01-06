@@ -20,7 +20,7 @@
 #
 - type: linkedin
   icon: 'fab fa-linkedin' 
- # url:  'https://www.linkedin.com/in/narcis-oliveras-font%C3%A0s/'                
+  url:  'https://www.linkedin.com/in/narcis-oliveras-font%C3%A0s/'                
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
