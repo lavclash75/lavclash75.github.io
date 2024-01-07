@@ -7,6 +7,7 @@
   icon: "fa-brands fa-x-twitter"
 
 - type: hackthebox
+  icon: "fas fa-cube"
   url: 'https://app.hackthebox.com/profile/517518'
 
 - type: rss
