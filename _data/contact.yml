@@ -6,15 +6,21 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
+- type: hackthebox
+  url: 'https://app.hackthebox.com/profile/517518'
 
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-
-#url:  'https://www.linkedin.com/in/narcis-oliveras-font%C3%A0s/'                
+- type: linkedin
+  icon: 'fab fa-linkedin' 
+  url:  'https://www.linkedin.com/in/narcis-oliveras-font%C3%A0s/'                
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
