@@ -1,8 +1,8 @@
 ---
 title: Solución ropemporium ret2win
-date: 2023-10-09
-categories: [rop, 64bits, bof, heap overflow]
-tags: [64bits, bof, heap-overflow, rop] #minúsculas-
+date: 2024-01-06
+categories: [rop, 64bits, bof]
+tags: [64bits, bof, rop] #minúsculas-
 ---
 # Ret2win
 En esta entrada estaré resolviendo ret2win ropemporium de 64 bits x86_64
